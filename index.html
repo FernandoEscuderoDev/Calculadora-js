@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div class="text-h1">
+                <h1>Calculadora</h1>
+            </div>
+            <form id="formulario">
+                <div class="text-p">
+                    <p>Primer numero</p>
+                    <p>Segundo numero</p>
+                </div>
+                <label for="" class="input">
+                    <input type="number" name="Primer numero" class="input1" tabindex="1">
+                </label>
+                <label for="" class="input">
+                    <input type="number" name="Segundo numero" class="input2" tabindex="2">
+                </label>
+                <div class="grupo-btn">
+                    <div class="div-btn">
+                        <button type="submit" class="btn btnResta">-</button>
+                        <button type="submit" class="btn btnSuma">+</button>
+                        <button type="submit" class="btn btnMultiplicacion">*</button>
+                        <button type="submit" class="btn btnDivision">/</button>
+                        <button type="submit" class="btn btnLimpiar">Clear</button>
+                    </div>
+                </div>
+                <h2 class="resultadoApp">El resultado es: <span class="spanResult"></span></h2>
+                <footer>©2022 Fernando Escudero</footer>
+            </form>
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
